@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react_portfolio/static/css/main.df5a90eb.css",
+    "main.js": "/react_portfolio/static/js/main.796f551b.js",
+    "static/media/funny-profile.jpg": "/react_portfolio/static/media/funny-profile.f0220f95a3d6064f32a8.jpg",
+    "static/media/CV Andreas Takvam 2022.pdf": "/react_portfolio/static/media/CV Andreas Takvam 2022.f614bb9317d6f423a116.pdf",
+    "index.html": "/react_portfolio/index.html",
+    "main.df5a90eb.css.map": "/react_portfolio/static/css/main.df5a90eb.css.map",
+    "main.796f551b.js.map": "/react_portfolio/static/js/main.796f551b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df5a90eb.css",
+    "static/js/main.796f551b.js"
+  ]
+}
