@@ -57,12 +57,14 @@ header {
   background: white;
 } */
 
+/*-----------------------Media Queries Medium---------------*/
 @media screen and (max-width: 1024px) {
   header {
     height: 68vh;
   }
 }
 
+/*-----------------------Media Queries Small---------------*/
 @media screen and (max-width: 600px) {
   header {
     height: 100vh;
