@@ -1,7 +1,10 @@
 .about__container {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 35% 50%;
   gap: 15%;
+  align-items: center; */
+  display: flex;
+  justify-content: center;
 }
 
 .about__me {
@@ -70,6 +73,7 @@
 .about__content p {
   margin: 2rem 0 2.6rem;
   color: #718e7459;
+  text-align: center;
 }
 
 /*-----------------------Media Queries Medium---------------*/

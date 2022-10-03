@@ -14,7 +14,8 @@
 :root {
   --color-bg: #124559;
   --color-bg-variant: #718e74;
-  --color-header: #e7a42b;
+  --color-container: #718e7459;
+  --color-header: #e7a42b; /*this is used on all text*/
   --color-text: #01161e;
   --color-white: #ffff;
   --color-light: rgb(255, 255, 255, 0.6);
@@ -114,14 +115,14 @@ a:hover {
 }
 
 .btn:hover {
-  background: var(--color-bg-variant);
-  color: var(--color-bg);
-  border-color: transparent;
+  background: var(--color-bg);
+  color: var(--color-header);
+  border-color: var(--color-bg-variant);
 }
 
 .btn-primary {
-  background: var(--color-text);
-  color: var(--color-text);
+  background: var(--color-container);
+  color: var(--color-header);
 }
 
 img {

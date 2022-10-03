@@ -36,7 +36,7 @@ img {
   padding: 1.2rem;
 
   border-radius: 60px;
-  background: rgba(42, 52, 43, 0.2);
+  background: var(--color-container);
   backdrop-filter: blur(5px);
 }
 
