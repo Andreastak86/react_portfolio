@@ -63,7 +63,7 @@ const Experience = () => {
             <article className='experience__details'>
               <SiMicrosoftoffice className='experience__details-icon' />
               <div>
-                <h4>HTML</h4>
+                <h4>Office 365</h4>
                 <small className='text-light'>
                   God bruk av alle Office 365 programmer
                 </small>
