@@ -8,9 +8,9 @@ import { GiOpenFolder } from "react-icons/gi";
 const About = () => {
   return (
     <section id='about'>
-      <h5>La oss bli kjent</h5>
+      <h5>La Oss Bli Kjent</h5>
       <h2>Om Meg</h2>
-      <div className='container about_container'>
+      <div className='container about__container'>
         <div className='about__content'>
           <div className='about__cards'>
             <article className='about__card'>
