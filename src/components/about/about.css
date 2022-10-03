@@ -36,7 +36,7 @@
 }
 
 .about__card {
-  background: var(--color-bg-variant);
+  background: #718e7459;
   border: 1px solid transparent;
   border-radius: 1rem;
   padding: 2rem;
@@ -64,12 +64,12 @@
 
 .about__card small {
   font-size: 0.7rem;
-  color: #124559;
+  color: #e7a42b;
 }
 
 .about__content p {
   margin: 2rem 0 2.6rem;
-  color: #718e74;
+  color: #718e7459;
 }
 
 /*-----------------------Media Queries Medium---------------*/
