@@ -2,17 +2,17 @@
   background: #718e7459;
 
   width: 22rem;
-  height: 32rem;
+  height: 22rem;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 2rem;
   border-radius: 60px;
   overflow: hidden;
-  padding: 2.5rem;
+  padding: 4.5rem;
   rotate: -4deg;
-  /* border: red solid 2px; */
+  border: red solid 5px;
 }
 
 header {

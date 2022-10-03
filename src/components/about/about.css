@@ -46,12 +46,14 @@
 
 .about__card:hover {
   background: transparent;
-  border-color: blue;
+  border-color: #718e74;
   cursor: pointer;
 }
 
-.about__icon {
-  color: red;
+.about__icon,
+.clients__icon,
+.projects__icon {
+  color: #e7a42b;
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
@@ -62,12 +64,12 @@
 
 .about__card small {
   font-size: 0.7rem;
-  color: pink;
+  color: #124559;
 }
 
 .about__content p {
   margin: 2rem 0 2.6rem;
-  color: pink;
+  color: #718e74;
 }
 
 /*-----------------------Media Queries Medium---------------*/

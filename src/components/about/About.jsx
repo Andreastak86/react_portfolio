@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import Me from "../../assets/Andreas-profile.jpg";
+
 import { ImUserTie } from "react-icons/im";
 import { MdEmojiPeople } from "react-icons/md";
 import { GiOpenFolder } from "react-icons/gi";
@@ -11,11 +11,6 @@ const About = () => {
       <h5>La oss bli kjent</h5>
       <h2>Om Meg</h2>
       <div className='container about_container'>
-        <div className='about__me'>
-          <div className='about__me-img'>
-            <img src={Me} alt='pic of me' />
-          </div>
-        </div>
         <div className='about__content'>
           <div className='about__cards'>
             <article className='about__card'>
@@ -36,11 +31,7 @@ const About = () => {
               <small>10 ++</small>
             </article>
           </div>
-          <p>
-            brhvvvvvvvvvvvvvvvvvvvvvvvviervbk
-            <br />
-            djvbkbfvhbearvbbdfjkvbfdhavbebaeaehdfavyudbavbhdbfvfv
-          </p>
+          <p>her kommer det litt tekst</p>
           <a href='#contact' className='btn btn-primary'>
             La oss snakke
           </a>
