@@ -5,6 +5,9 @@ import { SiJavascript } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
 import { FiFigma } from "react-icons/fi";
 import { FaReact } from "react-icons/fa";
+import { SiMicrosoftoffice } from "react-icons/si";
+import { IoCheckmarkCircleOutline } from "react-icons/io5";
+import { SiPowerbi } from "react-icons/si";
 
 const Experience = () => {
   return (
@@ -17,29 +20,68 @@ const Experience = () => {
           <h3>Frontend Development</h3>
           <div className='experience__content'>
             <article className='experience__details'>
-              <SiHtml5 />
-              <h4>HTML</h4>
-              <small className='text-light'>Middels Erfaring</small>
+              <SiHtml5 className='experience__details-icon' />
+              <div>
+                <h4>HTML</h4>
+                <small className='text-light'>Middels Erfaring</small>
+              </div>
             </article>
             <article className='experience__details'>
-              <SiJavascript />
-              <h4>JavaScript</h4>
-              <small className='text-light'>Kommer seg for hver dag</small>
+              <SiJavascript className='experience__details-icon' />
+              <div>
+                <h4>JavaScript</h4>
+                <small className='text-light'>Kommer seg for hver dag</small>
+              </div>
             </article>
             <article className='experience__details'>
-              <SiCss3 />
-              <h4>CSS</h4>
-              <small className='text-light'>Middels Erfaring</small>
+              <SiCss3 className='experience__details-icon' />
+              <div>
+                <h4>CSS</h4>
+                <small className='text-light'>Middels Erfaring</small>
+              </div>
             </article>
             <article className='experience__details'>
-              <FiFigma />
-              <h4>Figma</h4>
-              <small className='text-light'>God Erfaring</small>
+              <FiFigma className='experience__details-icon' />
+              <div>
+                <h4>Figma</h4>
+                <small className='text-light'>God Erfaring</small>
+              </div>
             </article>
             <article className='experience__details'>
-              <FaReact />
-              <h4>React</h4>
-              <small className='text-light'>Lærer stadig mer</small>
+              <FaReact className='experience__details-icon' />
+              <div>
+                <h4>React</h4>
+                <small className='text-light'>Lærer stadig mer</small>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div className='experience__other'>
+          <h3>Andre Erfaringer</h3>
+          <div className='experience__content'>
+            <article className='experience__details'>
+              <SiMicrosoftoffice className='experience__details-icon' />
+              <div>
+                <h4>HTML</h4>
+                <small className='text-light'>
+                  God bruk av alle Office 365 programmer
+                </small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <IoCheckmarkCircleOutline className='experience__details-icon' />
+              <div>
+                <h4>SuperOffice</h4>
+                <small className='text-light'>God Erfaring</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <SiPowerbi className='experience__details-icon' />
+              <div>
+                <h4>PowerBI</h4>
+                <small className='text-light'>Grunnlegende</small>
+              </div>
             </article>
           </div>
         </div>
