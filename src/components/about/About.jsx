@@ -1,4 +1,5 @@
 import React from "react";
+import Pitch from "./Pitch";
 import "./about.css";
 
 import { ImUserTie } from "react-icons/im";
@@ -31,10 +32,12 @@ const About = () => {
               <small>10 ++</small>
             </article>
           </div>
-          <p>her kommer det litt tekst</p>
-          <a href='#contact' className='btn btn-primary'>
-            La oss snakke
-          </a>
+          <Pitch />
+          <div className='contact-btn'>
+            <a href='#contact' className='btn btn-contact'>
+              Kom I Kontakt
+            </a>
+          </div>
         </div>
       </div>
     </section>
