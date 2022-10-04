@@ -10,11 +10,11 @@ function Pitch() {
             problemløser av natur, og gir meg ikke før jeg har oppnådd resultat.
             Med stor interesse for data, elektronikk og duppedingser. Har jeg
             også fattet interesse for å knytte koding sammen med små
-            datamaskiner som arduino og Rasbery Pi. Ved å ha meg med på laget,
+            datamaskiner som Arduino og Rasbery Pi. Ved å ha meg med på laget,
             får dere en dedikert, energisk person som aldri sier nei for å ta i
             et tak. Jeg ser på en hver utfordring til å tilegne meg ny kunnskap.
             Mitt mål er ikke å bli best, men å bli den beste personen å ha med
-            på laget.
+            på laget!
           </h6>
         </div>
       </div>

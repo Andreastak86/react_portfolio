@@ -85,7 +85,7 @@
   font-family: "Courier New", Courier, monospace;
   text-align: center;
   margin-bottom: 4rem;
-  padding: 4rem 8rem;
+  padding: 4rem 4rem;
   border: 1px solid var(--color-header);
   border-radius: 1rem;
 }
@@ -93,6 +93,16 @@
 .contact-btn {
   display: flex;
   justify-content: center;
+}
+
+.btn-contact {
+  color: var(--color-header);
+  background: var(--color-container);
+}
+
+.btn-contact:hover {
+  color: var(--color-header);
+  background: var(--color-bg);
 }
 
 /*-----------------------Media Queries Medium---------------*/
@@ -135,7 +145,8 @@
   }
 
   .about__pitch {
-    width: 65%;
-    margin: 0 auto 3rem;
+    width: 90%;
+
+    text-align: center;
   }
 }

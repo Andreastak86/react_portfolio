@@ -2,9 +2,9 @@ import React from "react";
 import Pitch from "./Pitch";
 import "./about.css";
 
-import { ImUserTie } from "react-icons/im";
-import { MdEmojiPeople } from "react-icons/md";
-import { GiOpenFolder } from "react-icons/gi";
+import { FaCode } from "react-icons/fa";
+import { FaFileContract } from "react-icons/fa";
+import { ImFolderOpen } from "react-icons/im";
 
 const About = () => {
   return (
@@ -15,21 +15,21 @@ const About = () => {
         <div className='about__content'>
           <div className='about__cards'>
             <article className='about__card'>
-              <ImUserTie className='about__icon' />
-              <h5>Erfaring:</h5>
-              <small>15 år med salg og snart 1 år med front-end</small>
+              <FaCode className='about__icon' />
+              <h5>Erfaring med kode:</h5>
+              <small>Snart 1 år med front-end</small>
             </article>
 
             <article className='about__card'>
-              <MdEmojiPeople className='clients__icon' />
-              <h5>Klienter:</h5>
-              <small>0</small>
+              <FaFileContract className='clients__icon' />
+              <h5>Tidligere Erfaring:</h5>
+              <small>15 år med salg</small>
             </article>
 
             <article className='about__card'>
-              <GiOpenFolder className='projects__icon' />
+              <ImFolderOpen className='projects__icon' />
               <h5>Prosjekter:</h5>
-              <small>10 ++</small>
+              <small>5 +</small>
             </article>
           </div>
           <Pitch />
