@@ -20,6 +20,8 @@ const Portfolio = () => {
             <a
               href='https://andreastak86.github.io/Drum-kit.2.0/'
               className='btn btn-primary'
+              target='_blank'
+              rel='noreferrer'
             >
               Live Demo
             </a>
@@ -33,6 +35,8 @@ const Portfolio = () => {
             <a
               href='https://andreastak86.github.io/Collatz-Oppgave'
               className='btn btn-primary'
+              target='_blank'
+              rel='noreferrer'
             >
               Live Demo
             </a>
@@ -46,6 +50,8 @@ const Portfolio = () => {
             <a
               href='https://andreastak86.github.io/To-Do-List-2808/'
               className='btn btn-primary'
+              target='_blank'
+              rel='noreferrer'
             >
               Live Demo
             </a>
