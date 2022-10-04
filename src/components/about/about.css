@@ -17,7 +17,7 @@
     var(--color-white),
     transparent
   );
-  display: grid;
+  display: flex;
   place-items: center;
 }
 
