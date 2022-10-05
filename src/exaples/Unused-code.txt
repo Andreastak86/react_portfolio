@@ -164,3 +164,41 @@ import Me from "../../assets/Andreas-profile.jpg";
             </a>
           </div>
         </article>
+
+
+
+/////////////////////////////////////////////testemonials////////////////////////////
+
+    <article className='testemonial'>
+          <div className='client__avatar'>
+            <img src={T1} alt='Test1' />
+          </div>
+          <h5 className='client__name'>AOC U32</h5>
+          <small className='client__review'></small>
+        </article>
+
+        <article className='testemonial'>
+          <div className='client__avatar'>
+            <img src={T2} alt='Test2' />
+          </div>
+          <h5 className='client__name'>Arlo Doorbell</h5>
+          <small className='client__review'></small>
+        </article>
+
+        <article className='testemonial'>
+          <div className='client__avatar'>
+            <img src={T3} alt='Test3' />
+          </div>
+          <h5 className='client__name'>OnePlus 8T</h5>
+          <small className='client__review'></small>
+        </article>
+
+        <article className='testemonial'>
+          <div className='client__avatar'>
+            <img src={T4} alt='Test4' />
+          </div>
+          <h5 className='client__name'>Phillips 272 </h5>
+          <small className='client__review'></small>
+        </article>
+
+        

@@ -13,7 +13,7 @@
 }
 
 .portfolio__item:hover {
-  border-color: red;
+  border-color: var(--color-header);
   background: transparent;
 }
 
