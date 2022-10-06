@@ -46,6 +46,10 @@
   border-color: var(--color-bg-variant);
 }
 
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background-color: var(--color-header);
+}
+
 /*-----------------------Media Queries Medium---------------*/
 @media screen and (max-width: 1024px) {
 }
