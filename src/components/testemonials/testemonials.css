@@ -28,6 +28,24 @@
   margin: 0.8rem auto 0;
 }
 
+.btn__read {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-header);
+  padding: 0.2rem 0.8rem;
+  margin-top: 0.5rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid #e7a42b;
+  transition: var(--transition);
+}
+
+.btn__read:hover {
+  background: var(--color-bg);
+  color: var(--color-header);
+  border-color: var(--color-bg-variant);
+}
+
 /*-----------------------Media Queries Medium---------------*/
 @media screen and (max-width: 1024px) {
 }

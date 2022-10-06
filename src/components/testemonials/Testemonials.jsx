@@ -20,21 +20,25 @@ const data = [
     avatar: T1,
     name: "AOC U32",
     review: "En perfekt allround skjerm.",
+    url: "https://itprox.no/artikkel/35315/produktomtale-aoc-u32p2/",
   },
   {
     avatar: T2,
     name: "Arlo Doorbell",
     review: "For deg som ikke gidd å reise deg når det ringer på.",
+    url: "https://itprox.no/artikkel/34542/produkttest-arlo-essential-doorbell/",
   },
   {
     avatar: T3,
     name: "OnePlus 8T",
     review: "OnePlus har gjort det igjen.",
+    url: "https://itprox.no/artikkel/32936/test-oneplus-8t/",
   },
   {
     avatar: T4,
     name: "Phillips 272",
     review: "Et godt valg til kontoret.",
+    url: "https://itprox.no/artikkel/34829/produktomtale-phillips-272e2/",
   },
 ];
 
@@ -58,11 +62,20 @@ const Testemonials = () => {
         navigation={false}
         modules={[Navigation, Pagination, Autoplay]}
       >
-        {data.map(({ avatar, name, review }, index) => {
+        {data.map(({ avatar, name, review, url }, index) => {
           return (
             <SwiperSlide key={index} className='testemonial'>
               <div className='client__avatar'>
                 <img src={avatar} alt='Test' />
+                <a
+                  href={url}
+                  className='btn__read'
+                  alt='Article'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  Les
+                </a>
               </div>
               <h5 className='client__name'>{name}</h5>
               <small className='client__review'>{review}</small>
