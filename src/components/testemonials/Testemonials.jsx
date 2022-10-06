@@ -6,7 +6,7 @@ import T3 from "../../assets/OP8T.jpg";
 import T4 from "../../assets/Phil 272.jpg";
 
 // import Swiper core and required modules
-import { Navigation, Pagination } from "swiper";
+import { Navigation, Pagination, Autoplay } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -50,9 +50,13 @@ const Testemonials = () => {
         slidesPerView={1}
         spaceBetween={40}
         loop={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         pagination={{ clickable: true }}
-        navigation={true}
-        modules={[Navigation, Pagination]}
+        navigation={false}
+        modules={[Navigation, Pagination, Autoplay]}
       >
         {data.map(({ avatar, name, review }, index) => {
           return (
