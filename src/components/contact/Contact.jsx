@@ -2,7 +2,7 @@ import React from "react";
 import "./contact.css";
 import { SiMaildotru } from "react-icons/si";
 import { SiMessenger } from "react-icons/si";
-import { SiDiscord } from "react-icons/si";
+import { MdPhoneIphone } from "react-icons/md";
 
 const Contact = () => {
   return (
@@ -13,7 +13,7 @@ const Contact = () => {
       <div className='container contact__container'>
         <div className='contact__potions'>
           <article className='contact__option'>
-            <SiMaildotru />
+            <SiMaildotru className='contact__option-icon' />
             <h4>Epost</h4>
             <h5>andreas.takvam@gmail.com</h5>
             <a
@@ -26,7 +26,7 @@ const Contact = () => {
           </article>
 
           <article className='contact__option'>
-            <SiMessenger />
+            <SiMessenger className='contact__option-icon' />
             <h4>Messenger</h4>
             <h5>Andreas</h5>
             <a
@@ -39,7 +39,7 @@ const Contact = () => {
           </article>
 
           <article className='contact__option'>
-            <SiMaildotru />
+            <MdPhoneIphone className='contact__option-icon' />
             <h4>Telefon</h4>
             <h5>Andreas Takvam</h5>
             <a href='tel:004741627916' target='_blank' rel='noreferrer'>
@@ -47,7 +47,24 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        <form action=''></form>
+        <form action=''>
+          <input type='text' name='name' placeholder='Ditt Navn' required />
+          <input
+            type='email'
+            name='email'
+            placeholder='Din Mailadresse'
+            required
+          />
+          <textarea
+            name='message'
+            rows='7'
+            placeholder='Din Melding'
+            required
+          ></textarea>
+          <button type='submit' className='btn btn-primary'>
+            Send Melding
+          </button>
+        </form>
       </div>
     </section>
   );
