@@ -3,8 +3,24 @@ import "./contact.css";
 import { SiMaildotru } from "react-icons/si";
 import { SiMessenger } from "react-icons/si";
 import { MdPhoneIphone } from "react-icons/md";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      "service_69572xj",
+      "template_n8q0gqf",
+      form.current,
+      "GyOKH1R0saYvMD1DZ"
+    );
+    e.target.reset();
+  };
+
   return (
     <section id='contact'>
       <h5>La Oss Snakke</h5>
@@ -47,7 +63,7 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        <form action=''>
+        <form ref={form} onSubmit={sendEmail}>
           <input type='text' name='name' placeholder='Ditt Navn' required />
           <input
             type='email'
