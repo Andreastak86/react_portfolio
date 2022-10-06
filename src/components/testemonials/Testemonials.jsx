@@ -6,12 +6,13 @@ import T3 from "../../assets/OP8T.jpg";
 import T4 from "../../assets/Phil 272.jpg";
 
 // import Swiper core and required modules
-import { Pagination } from "swiper";
+import { Navigation, Pagination } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
+import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const data = [
@@ -43,7 +44,16 @@ const Testemonials = () => {
       <h5>På Fritiden</h5>
       <h2>Skribent for IT-Pro</h2>
 
-      <Swiper className='container testemonials__container'>
+      <Swiper
+        className='container testemonials__container'
+        // install Swiper modules
+        slidesPerView={1}
+        spaceBetween={40}
+        loop={true}
+        pagination={{ clickable: true }}
+        navigation={true}
+        modules={[Navigation, Pagination]}
+      >
         {data.map(({ avatar, name, review }, index) => {
           return (
             <SwiperSlide key={index} className='testemonial'>

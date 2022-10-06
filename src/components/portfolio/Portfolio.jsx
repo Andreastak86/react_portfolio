@@ -52,7 +52,7 @@ const Portfolio = () => {
               <h3>{title}</h3>
               <div className='portfolio__item-cta'>
                 <a href={github} className='btn' alt='Drum-kit project'>
-                  Drum-Kit
+                  GitHub
                 </a>
                 <a
                   href={demo}
