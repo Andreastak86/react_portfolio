@@ -55,8 +55,8 @@ const Testemonials = () => {
         spaceBetween={40}
         loop={true}
         autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
+          delay: 3000,
+          disableOnInteraction: true,
         }}
         pagination={{ clickable: true }}
         navigation={false}

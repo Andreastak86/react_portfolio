@@ -5,6 +5,14 @@ import IMG2 from "../../assets/collatz.jpg";
 import IMG3 from "../../assets/to-do.jpg";
 import IMG4 from "../../assets/Cta-oppgave.jpg";
 
+// import Swiper core and required modules
+import { Navigation, Pagination, Autoplay } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
 const data = [
   {
     id: 1,
@@ -42,10 +50,23 @@ const Portfolio = () => {
       <h5>Dette har jeg jobbet med den siste tiden</h5>
       <h2>Min Portefølje</h2>
 
-      <div className='container portfolio__container'>
+      <Swiper
+        className='container portfolio__container'
+        // install Swiper modules
+        slidesPerView={1}
+        spaceBetween={40}
+        loop={true}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: true,
+        }}
+        pagination={{ clickable: true }}
+        navigation={false}
+        modules={[Navigation, Pagination, Autoplay]}
+      >
         {data.map(({ id, image, title, github, demo }) => {
           return (
-            <article key={id} className='portfolio__item'>
+            <SwiperSlide key={id} className='portfolio__item'>
               <div className='portfolio__item-image'>
                 <img src={image} alt={title} />
               </div>
@@ -63,10 +84,10 @@ const Portfolio = () => {
                   Live Demo
                 </a>
               </div>
-            </article>
+            </SwiperSlide>
           );
         })}
-      </div>
+      </Swiper>
     </section>
   );
 };
