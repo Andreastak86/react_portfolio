@@ -1,6 +1,7 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 3rem;
+
   overflow: hidden;
 }
 
@@ -50,29 +51,27 @@ img {
 /*------------------Profile Pic --------------------*/
 
 .profile-pic {
-  background: #718e7459;
-
-  width: 22rem;
-  height: 30rem;
+  background: var(--color-container);
+  width: auto;
+  height: auto;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 4rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
-  border-radius: 12rem 12rem 12rem 12rem;
-
+  border-radius: 60px;
+  /* border: 2px solid red; */
   overflow: hidden;
-  padding: 5rem 3.5rem 6rem 3.5rem;
+  padding: 4rem 3.5rem 3rem 3.5rem;
 }
 
-.profile-pic img {
-  border: 2px double var(--color-header);
+/* .profile-pic img {
+  border: 2px solid var(--color-header);
   border-radius: 3rem;
-  padding: 1rem;
-
+  padding: 3rem;
   display: flex;
   align-content: center;
-}
+} */
 
 /*-----------------------Media Queries Medium---------------*/
 @media screen and (max-width: 1024px) {

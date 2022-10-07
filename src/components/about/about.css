@@ -7,6 +7,12 @@
   justify-content: center;
 }
 
+#about {
+  /* border: 2px solid red; */
+  margin-top: 6rem;
+  /* padding-top: 2rem; */
+}
+
 .about__me {
   width: 100%;
   aspect-ratio: 1/1;

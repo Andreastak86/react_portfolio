@@ -9,8 +9,8 @@ import { ImFolderOpen } from "react-icons/im";
 const About = () => {
   return (
     <section id='about'>
-      <h5>La Oss Bli Kjent</h5>
       <h2>Om Meg</h2>
+      <h5>La Oss Bli Kjent</h5>
       <div className='container about__container'>
         <div className='about__content'>
           <div className='about__cards'>
