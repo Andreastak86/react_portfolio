@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react_portfolio/static/css/main.b2121000.css",
-    "main.js": "/react_portfolio/static/js/main.c80be9d5.js",
+    "main.css": "/react_portfolio/static/css/main.2d1b2bcf.css",
+    "main.js": "/react_portfolio/static/js/main.9c4c8cac.js",
     "static/media/funny-profile.png": "/react_portfolio/static/media/funny-profile.54f85c7968f1809681c6.png",
-    "static/media/Cta-oppgave.jpg": "/react_portfolio/static/media/Cta-oppgave.a62104c4503b2feaea8a.jpg",
-    "static/media/collatz.jpg": "/react_portfolio/static/media/collatz.4963b2496ed1afebfae5.jpg",
+    "static/media/Cta-oppgave.jpg": "/react_portfolio/static/media/Cta-oppgave.8ff4d3f66e462f5f4526.jpg",
+    "static/media/collatz.jpg": "/react_portfolio/static/media/collatz.481244805b7dca13f2e4.jpg",
     "static/media/CV Andreas Takvam 2022.pdf": "/react_portfolio/static/media/CV Andreas Takvam 2022.f614bb9317d6f423a116.pdf",
     "static/media/drum-kit.jpg": "/react_portfolio/static/media/drum-kit.8f4ecc7176f9d0c7413a.jpg",
-    "static/media/to-do.jpg": "/react_portfolio/static/media/to-do.61853c049bed4a56c074.jpg",
+    "static/media/to-do.jpg": "/react_portfolio/static/media/to-do.906b61bcbc011d75e661.jpg",
     "static/media/Arlo.jpg": "/react_portfolio/static/media/Arlo.0322ad343b7e4e66fd6e.jpg",
     "static/media/Phil 272.jpg": "/react_portfolio/static/media/Phil 272.be8a46c0e4d10f1b4ea2.jpg",
     "static/media/AOC U32.jpg": "/react_portfolio/static/media/AOC U32.d66277c058c225d22a27.jpg",
     "static/media/OP8T.jpg": "/react_portfolio/static/media/OP8T.7a533199db2532bfdf3b.jpg",
     "index.html": "/react_portfolio/index.html",
-    "main.b2121000.css.map": "/react_portfolio/static/css/main.b2121000.css.map",
-    "main.c80be9d5.js.map": "/react_portfolio/static/js/main.c80be9d5.js.map"
+    "main.2d1b2bcf.css.map": "/react_portfolio/static/css/main.2d1b2bcf.css.map",
+    "main.9c4c8cac.js.map": "/react_portfolio/static/js/main.9c4c8cac.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2121000.css",
-    "static/js/main.c80be9d5.js"
+    "static/css/main.2d1b2bcf.css",
+    "static/js/main.9c4c8cac.js"
   ]
 }
