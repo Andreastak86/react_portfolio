@@ -29,7 +29,7 @@ function Footer() {
         </li>
       </ul>
 
-      <div className='footer__socials'>
+      {/* <div className='footer__socials'>
         <a href='https://bt.no'>
           <FaToiletPaper />
         </a>
@@ -39,7 +39,7 @@ function Footer() {
         <a href='https://nrk.no'>
           <FaToiletPaper />
         </a>
-      </div>
+      </div> */}
 
       <div className='footer__copyright'>
         <small>&copy; Andreas Takvam 2022</small>
