@@ -1,13 +1,7 @@
 header {
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 3rem;
-
   overflow: hidden;
-}
-
-img {
-  height: 100%;
-  width: 100%;
 }
 
 .header__container {
@@ -16,6 +10,8 @@ img {
   position: relative;
 }
 
+/*------------------------Action-BTN--------------------------*/
+
 .cta {
   margin-top: 2.5rem;
   display: flex;
@@ -23,7 +19,7 @@ img {
   justify-content: center;
 }
 
-/*--------------------Some Bar on left--------------------*/
+/*--------------------SOME Bar on left--------------------*/
 
 .header__some {
   display: flex;
@@ -32,13 +28,14 @@ img {
   gap: 1.2rem;
   position: absolute;
   left: 0;
-  margin-left: 1em;
-  bottom: 3rem;
+  /* bottom: 3rem; */
+  top: 21rem;
+  margin-left: 1rem;
   padding: 1.2rem;
-
   border-radius: 60px;
-  background: var(--color-container);
-  backdrop-filter: blur(5px);
+  background: rgba(113, 142, 116, 0.2);
+  backdrop-filter: blur(px);
+  /* border: 2px solid red; */
 }
 
 /* .header__some::after {
@@ -52,17 +49,17 @@ img {
 
 .profile-pic {
   background: var(--color-container);
-  width: auto;
-  height: auto;
+  width: 22rem;
+  height: 30rem;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 4rem;
+
   border-radius: 60px;
-  /* border: 2px solid red; */
+
   overflow: hidden;
-  padding: 4rem 3.5rem 3rem 3.5rem;
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
 /* .profile-pic img {
@@ -76,7 +73,7 @@ img {
 /*-----------------------Media Queries Medium---------------*/
 @media screen and (max-width: 1024px) {
   header {
-    height: 100vh;
+    height: 68vh;
   }
 }
 
