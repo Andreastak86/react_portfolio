@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/react_portfolio/static/css/main.72e0b759.css",
-    "main.js": "/react_portfolio/static/js/main.8157cd28.js",
+    "main.js": "/react_portfolio/static/js/main.ade0f590.js",
     "static/media/funny-profile.png": "/react_portfolio/static/media/funny-profile.54f85c7968f1809681c6.png",
     "static/media/collatz.jpg": "/react_portfolio/static/media/collatz.6cfed9008308b81513d8.jpg",
     "static/media/Cta-oppgave.jpg": "/react_portfolio/static/media/Cta-oppgave.958e898222a4aa465f2d.jpg",
     "static/media/drum-kit.jpg": "/react_portfolio/static/media/drum-kit.a2bfb62eb140cc617e81.jpg",
     "static/media/CV Andreas Takvam 2022.pdf": "/react_portfolio/static/media/CV Andreas Takvam 2022.f614bb9317d6f423a116.pdf",
     "static/media/to-do.jpg": "/react_portfolio/static/media/to-do.b1f846ffc8fa21887dc7.jpg",
-    "static/media/Arlo.jpg": "/react_portfolio/static/media/Arlo.0322ad343b7e4e66fd6e.jpg",
-    "static/media/Phil 272.jpg": "/react_portfolio/static/media/Phil 272.be8a46c0e4d10f1b4ea2.jpg",
-    "static/media/AOC U32.jpg": "/react_portfolio/static/media/AOC U32.d66277c058c225d22a27.jpg",
-    "static/media/OP8T.jpg": "/react_portfolio/static/media/OP8T.7a533199db2532bfdf3b.jpg",
+    "static/media/Phil 272.jpg": "/react_portfolio/static/media/Phil 272.91fd5f6c649f7885073f.jpg",
+    "static/media/Arlo.jpg": "/react_portfolio/static/media/Arlo.a6ba3b1b0be2f427c14b.jpg",
+    "static/media/AOC U32.jpg": "/react_portfolio/static/media/AOC U32.cca07bbefce61d3661a3.jpg",
+    "static/media/OP8T.jpg": "/react_portfolio/static/media/OP8T.ed01902e75468367d5a4.jpg",
     "index.html": "/react_portfolio/index.html",
     "main.72e0b759.css.map": "/react_portfolio/static/css/main.72e0b759.css.map",
-    "main.8157cd28.js.map": "/react_portfolio/static/js/main.8157cd28.js.map"
+    "main.ade0f590.js.map": "/react_portfolio/static/js/main.ade0f590.js.map"
   },
   "entrypoints": [
     "static/css/main.72e0b759.css",
-    "static/js/main.8157cd28.js"
+    "static/js/main.ade0f590.js"
   ]
 }
