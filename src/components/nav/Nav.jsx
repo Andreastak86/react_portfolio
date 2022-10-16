@@ -2,9 +2,11 @@ import React from "react";
 import "./nav.css";
 import { ImHome } from "react-icons/im";
 import { GoPerson } from "react-icons/go";
-import { MdWork } from "react-icons/md";
+// import { MdWork } from "react-icons/md";
 import { MdContactPage } from "react-icons/md";
-import { MdDesignServices } from "react-icons/md";
+// import { MdDesignServices } from "react-icons/md";
+import { FaBook } from "react-icons/fa";
+import { IoMdContacts } from "react-icons/io";
 import { useState } from "react";
 
 const Nav = () => {
@@ -27,13 +29,6 @@ const Nav = () => {
         <GoPerson />
       </a>
       <a
-        href='#experience'
-        onClick={() => setActiveNav("#experience")}
-        className={activeNav === "#experience" ? "active" : ""}
-      >
-        <MdWork />
-      </a>
-      <a
         href='#services'
         onClick={() => setActiveNav("#services")}
         className={activeNav === "#services" ? "active" : ""}
@@ -41,11 +36,19 @@ const Nav = () => {
         <MdContactPage />
       </a>
       <a
+        href='#portfolio'
+        onClick={() => setActiveNav("#portfolio")}
+        className={activeNav === "#portfolio" ? "active" : ""}
+      >
+        <FaBook />
+      </a>
+
+      <a
         href='#contact'
         onClick={() => setActiveNav("#contact")}
         className={activeNav === "#contact" ? "active" : ""}
       >
-        <MdDesignServices />
+        <IoMdContacts />
       </a>
     </nav>
   );

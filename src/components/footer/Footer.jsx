@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { FaToiletPaper } from "react-icons/fa";
+// import { FaToiletPaper } from "react-icons/fa";
 
 function Footer() {
   return (

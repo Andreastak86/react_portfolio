@@ -12,7 +12,7 @@ import { SiPowerbi } from "react-icons/si";
 const Experience = () => {
   return (
     <section id='experience'>
-      <h5>Hvilke Erfaringer Jeg Har</h5>
+      <h5>Så Hva Kan Jeg?</h5>
       <h2>Min Erfaring</h2>
 
       <div className='container experience__container'>
@@ -65,7 +65,7 @@ const Experience = () => {
               <div>
                 <h4>Office 365</h4>
                 <small className='text-light'>
-                  God bruk av alle Office 365 programmer
+                  Godt kjent med alle Office 365 programmer
                 </small>
               </div>
             </article>
@@ -73,7 +73,7 @@ const Experience = () => {
               <IoCheckmarkCircleOutline className='experience__details-icon' />
               <div>
                 <h4>SuperOffice</h4>
-                <small className='text-light'>God Erfaring</small>
+                <small className='text-light'>God erfaring</small>
               </div>
             </article>
             <article className='experience__details'>

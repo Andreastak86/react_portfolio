@@ -35,12 +35,17 @@
   margin-top: 0.7rem;
   display: inline-block;
   font-size: 0.9rem;
-  color: black;
-  border: 1px solid var(--color-header);
+  color: var(--color-header);
+  border: 2px solid var(--color-header);
   border-radius: 1rem;
   padding: 0.4rem;
   font-weight: bold;
   font-style: initial;
+}
+
+.contact__option a:hover {
+  background: transparent;
+  border-color: var(--color-bg-variant);
 }
 
 /*----------------------Fomrs-------------------------*/

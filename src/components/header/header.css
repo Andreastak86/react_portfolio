@@ -48,7 +48,7 @@ header {
 /*------------------Profile Pic --------------------*/
 
 .profile-pic {
-  background: var(--color-container);
+  background: linear-gradient(to right, #718e7459 0%, #1e2e2096 90%);
   width: 22rem;
   height: 30rem;
   position: absolute;

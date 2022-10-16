@@ -16,14 +16,14 @@ const About = () => {
           <div className='about__cards'>
             <article className='about__card'>
               <FaCode className='about__icon' />
-              <h5>Erfaring med kode:</h5>
-              <small>Snart 1 år med front-end</small>
+              <h5>Erfaring Med Kode:</h5>
+              <small>Snart 1 År Med Front-End</small>
             </article>
 
             <article className='about__card'>
               <FaFileContract className='clients__icon' />
               <h5>Tidligere Erfaring:</h5>
-              <small>15 år med salg</small>
+              <small>15 År Med Salg</small>
             </article>
 
             <article className='about__card'>
