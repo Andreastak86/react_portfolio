@@ -9,7 +9,7 @@
   border-radius: 5%;
   margin: 0 auto 1rem;
   padding: 1rem;
-  border: 0.4rem solid var(--color-header);
+  /* border: 0.4rem solid var(--color-header); */
 }
 
 .testemonial {

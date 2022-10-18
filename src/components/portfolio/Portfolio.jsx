@@ -4,6 +4,7 @@ import IMG1 from "../../assets/drum-kit.jpg";
 import IMG2 from "../../assets/collatz.jpg";
 import IMG3 from "../../assets/to-do.jpg";
 import IMG4 from "../../assets/Cta-oppgave.jpg";
+import IMG5 from "../../assets/Solsystemet.jpg";
 
 // import Swiper core and required modules
 import { Navigation, Pagination, Autoplay } from "swiper";
@@ -42,6 +43,13 @@ const data = [
     github: "https://github.com/Andreastak86/Oppgave-planleggingsuke",
     demo: "https://andreastak86.github.io/Oppgave-planleggingsuke/",
   },
+  {
+    id: 5,
+    image: IMG5,
+    title: "Solsystemet",
+    github: "https://github.com/Andreastak86/Solsytemet",
+    demo: "https://andreastak86.github.io/Solsytemet/",
+  },
 ];
 
 const Portfolio = () => {
@@ -72,7 +80,13 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className='portfolio__item-cta'>
-                <a href={github} className='btn' alt='Drum-kit project'>
+                <a
+                  href={github}
+                  className='btn'
+                  target='_blank'
+                  rel='noreferrer'
+                  alt='Drum-kit project'
+                >
                   GitHub
                 </a>
                 <a
