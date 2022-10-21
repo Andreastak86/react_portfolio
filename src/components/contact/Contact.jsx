@@ -27,7 +27,7 @@ const Contact = () => {
       <h2>Kontakt Meg</h2>
 
       <div className='container contact__container'>
-        <div className='contact__potions'>
+        <div className='contact__options'>
           <article className='contact__option'>
             <SiMaildotru className='contact__option-icon' />
             <h4>Epost</h4>

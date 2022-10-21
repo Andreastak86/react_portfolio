@@ -1,0 +1,12 @@
+.instagram {
+  background: transparent;
+  border: 2px solid red;
+}
+
+.container.insta__container {
+  width: 40%;
+}
+
+.insta__options {
+  text-align: center;
+}
