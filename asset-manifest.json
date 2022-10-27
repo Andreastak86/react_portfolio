@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react_portfolio/static/css/main.fb28232b.css",
-    "main.js": "/react_portfolio/static/js/main.42f2e7e4.js",
+    "main.css": "/react_portfolio/static/css/main.1ea189df.css",
+    "main.js": "/react_portfolio/static/js/main.438ccdb1.js",
     "static/media/funny-profile.png": "/react_portfolio/static/media/funny-profile.54f85c7968f1809681c6.png",
     "static/media/collatz.jpg": "/react_portfolio/static/media/collatz.6cfed9008308b81513d8.jpg",
     "static/media/Cta-oppgave.jpg": "/react_portfolio/static/media/Cta-oppgave.958e898222a4aa465f2d.jpg",
@@ -14,11 +14,11 @@
     "static/media/Solsystemet.jpg": "/react_portfolio/static/media/Solsystemet.9f94978756ac6cf15ce5.jpg",
     "static/media/OP8T.jpg": "/react_portfolio/static/media/OP8T.ed01902e75468367d5a4.jpg",
     "index.html": "/react_portfolio/index.html",
-    "main.fb28232b.css.map": "/react_portfolio/static/css/main.fb28232b.css.map",
-    "main.42f2e7e4.js.map": "/react_portfolio/static/js/main.42f2e7e4.js.map"
+    "main.1ea189df.css.map": "/react_portfolio/static/css/main.1ea189df.css.map",
+    "main.438ccdb1.js.map": "/react_portfolio/static/js/main.438ccdb1.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb28232b.css",
-    "static/js/main.42f2e7e4.js"
+    "static/css/main.1ea189df.css",
+    "static/js/main.438ccdb1.js"
   ]
 }
