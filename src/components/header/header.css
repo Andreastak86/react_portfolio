@@ -38,6 +38,11 @@ header {
   /* border: 2px solid red; */
 }
 
+.header__some a:hover {
+  background: var(--color-bg);
+  border-radius: 30%;
+}
+
 /* .header__some::after {
   content: "";
   width: 4px;

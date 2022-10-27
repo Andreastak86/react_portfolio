@@ -8,6 +8,7 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Testemonials from "./components/testemonials/Testemonials";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import Insta from "./components/instagram/instagram";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Services />
       <Portfolio />
       <Testemonials />
+      <Insta />
       <Contact />
       <Footer />
     </>
