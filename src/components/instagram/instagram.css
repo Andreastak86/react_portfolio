@@ -1,12 +1,10 @@
-.instagram {
+.instagram__container {
   background: transparent;
-  border: 2px solid red;
-}
-
-.container.insta__container {
-  width: 40%;
-}
-
-.insta__options {
+  /* border: 2px solid red; */
   text-align: center;
+  padding: 3rem;
+  margin-top: 4rem;
+}
+button {
+  margin-top: 2rem;
 }

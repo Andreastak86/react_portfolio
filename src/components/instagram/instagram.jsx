@@ -1,17 +1,15 @@
 import React from "react";
+import API from "./apicalls";
+
 import "./instagram.css";
 
 const instagram = () => {
   return (
-    <section className='instagram'>
-      <h5>Instagram</h5>
-      <h2>Mine bilder</h2>
-      <div className='container insta__container'>
-        <div className='insta__options'>
-          <h2>test</h2>
-        </div>
-      </div>
-    </section>
+    <div className='instagram__container'>
+      {/* <h1>Instagram</h1>
+      <p>Bilder</p> */}
+      <API />
+    </div>
   );
 };
 
