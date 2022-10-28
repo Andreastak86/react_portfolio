@@ -4,6 +4,9 @@ import T1 from "../../assets/AOC U32.jpg";
 import T2 from "../../assets/Arlo.jpg";
 import T3 from "../../assets/OP8T.jpg";
 import T4 from "../../assets/Phil 272.jpg";
+import T5 from "../../assets/Phillips 27E1.jpg";
+import T6 from "../../assets/Phillips 24E1.jpg";
+import T7 from "../../assets/Phillips 243s1.jpg";
 
 // import Swiper core and required modules
 import { Navigation, Pagination, Autoplay } from "swiper";
@@ -39,6 +42,24 @@ const data = [
     name: "Phillips 272",
     review: "Et godt valg til kontoret.",
     url: "https://itprox.no/artikkel/34829/produktomtale-phillips-272e2/",
+  },
+  {
+    avatar: T5,
+    name: "Phillips 27E1",
+    review: "Phillips nye 5000-serie viser muskler.",
+    url: "https://itprox.no/artikkel/46274/test-philips-27e1n5600he/",
+  },
+  {
+    avatar: T6,
+    name: "Phillips 24E1",
+    review: "En liten og hendig skjerm til kontoret.",
+    url: "https://itprox.no/artikkel/46259/test-phillips-24e1n5300he/",
+  },
+  {
+    avatar: T7,
+    name: "Phillips 272",
+    review: "En allrounder på 24 tommer.",
+    url: "https://itprox.no/artikkel/46241/test-philips-243s1/",
   },
 ];
 
