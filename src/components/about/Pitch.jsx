@@ -6,7 +6,7 @@ function Pitch() {
       <div className='about__content'>
         <div className='about__pitch'>
           <h6>
-            Jeg er en 35 år ung mann som har funnet gleden med å kode. Jeg er
+            Jeg er en 36 år ung mann som har funnet gleden med å kode. Jeg er
             problemløser av natur, og gir meg ikke før jeg har oppnådd resultat.
             Med stor interesse for data, elektronikk og duppedingser. Har jeg
             også fattet interesse for å knytte koding sammen med små
