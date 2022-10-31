@@ -8,7 +8,7 @@ function Pitch() {
           <h6>
             Jeg er en 36 år ung mann som har funnet gleden med å kode. Jeg er
             problemløser av natur, og gir meg ikke før jeg har oppnådd resultat.
-            Med stor interesse for data, elektronikk og duppedingser. Har jeg
+            Med stor interesse for data, elektronikk og duppedingser, har jeg
             også fattet interesse for å knytte koding sammen med små
             datamaskiner som Arduino og Rasbery Pi. Ved å ha meg med på laget,
             får dere en dedikert, energisk person som aldri sier nei for å ta i
